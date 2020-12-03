@@ -2,7 +2,7 @@
 <html lang="en">
     
 <head>
-    <title>Web AR - Test nach Tutorial</title>
+    <title>AR - Manfred und Max und Stufi</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
@@ -31,12 +31,15 @@
 
 
     <div class="demo">
-        <model-viewer id="model" src="Manfredmaxstufi2.glb" auto-rotate camera-controls skybox-image="peppermint_powerplant_1k.hdr" 
-        animation-name="Running" autoplay ar>
-        <button slot="ar-button" style="background-color: white; border-radius: 4px; border: none; position: absolute; top: 16px; right: 16px; ">
+        <model-viewer id="model" src="glb/Manfredmaxstufi2.glb" auto-rotate camera-controls skybox-image="peppermint_powerplant_1k.hdr" 
+        autoplay ar shadow-intensity="0" ar-scale="auto">
+            <button slot="ar-button" style="background-color: white; border-radius: 4px; border: none; position: absolute; top: 16px; right: 16px; ">
             Activate AR
-        </button>
-    </model-viewer>
+             </button>
+
+        </model-viewer>
+
+        
         
     </div>
     
